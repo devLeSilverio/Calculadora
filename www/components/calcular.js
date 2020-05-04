@@ -54,10 +54,12 @@ $(document).on("click", "#Zero", function(){
 $(document).on("click", "#Apagar", function(){
   $("#result").val("");
   $("#result2").val("");
-  //  var len = $("#result").val().length;
-  //  var valor = $("#result").val();
-  //  valor = valor.replace(valor.charAt(len - 1 ),"");
-  //  $("#result").val(valor);
+ 
+ //para apagar de um em um,caso queira usar depois:
+ // var len = $("#result").val().length; //contar todos os caracteres.
+//  var valor = $("#result").val();
+//  valor = valor.replace(valor.charAt(len - 1 ),""); //todos os caracteres menos um.
+ // $("#result").val(valor);
 });
 
 $(document).on("click", "#Raiz", function(){

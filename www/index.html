@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+
+  <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+  <script src="components/loader.js"></script>
+
+  <!-- inserir jquery -->
+  <script src="lib/jquery-3.4.1.min.js"></script> 
+  <script src="components/calcular.js"></script>
+
+  <link rel="stylesheet" href="components/loader.css">
+
+    <!-- inserir bootstrap -->
+  <link rel="stylesheet" href="lib/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+
+<div class container-fluid>
+
+<div class="row mt-4">
+  <div class="col-12 title">
+<center><h1>CALCULADORA</h1><center>
+  </div>
+</div>
+
+<div class="row mt-4">
+  <div class="col-10 offset-1 a">
+    <input type="string" class="form-control" id="result"  readonly>
+    <input type="string" class="form-control" id="result2"  readonly>
+  </div>
+</div>
+
+<div class="row mt-3">
+
+    <div class="col-3 offset-1">
+     <button type="button" class="btn btn-dark btn-block" value="+" id="Adicao">+</button>  </div>
+
+     <div class="col-3">
+     <button type="button" class="btn btn-dark btn-block"  value="X" id="Multiplicacao">X</button>  </div>
+
+     <div class="col-4">
+    <button type="button" class="btn btn-dark btn-block"   value="N!" id="Fatorial">N!</button>
+    </div>
+</div>
+
+<div class="row mt-1">
+
+    <div class="col-3 offset-1">
+       <button type="button" class="btn btn-dark btn-block" value="/" id="Dividir">/</button> </div>
+
+     <div class="col-3">
+      <button type="button" class="btn btn-dark btn-block" value="-" id="Subtracao">-</button> </div>
+
+     <div class="col-4">
+   <button type="button" class="btn btn-dark btn-block" value="X²" id="Aoquadrado">X²</button>
+    </div>
+</div>
+
+<div class="row mt-1">
+
+    <div class="col-3 offset-1">
+      <button type="button" class="btn btn-dark btn-block" value="7" name="btn" id="Sete">7</button> </div>
+
+     <div class="col-3">
+       <button type="button" class="btn btn-dark btn-block" value="8" id="Oito">8</button> </div>
+     <div class="col-4">
+    <button type="button" class="btn btn-dark btn-block" value="9" id="Nove">9</button> </div>
+    </div>
+</div>
+
+<div class="row mt-1">
+
+    <div class="col-3 offset-1">
+         <button type="button" class="btn btn-dark btn-block" value="4" id="Quatro">4</button> </div>
+     <div class="col-3">
+        <button type="button" class="btn btn-dark btn-block" value="5" id="Cinco">5</button> </div>
+     <div class="col-4">
+   <button type="button" class="btn btn-dark btn-block" value="6" id="Seis">6</button>
+    </div>
+</div>
+
+<div class="row mt-1">
+
+    <div class="col-3 offset-1">
+     <button type="button" class="btn btn-dark btn-block" value="1" id="Um" >1</button> </div>
+     <div class="col-3">
+        <button type="button" class="btn btn-dark btn-block" id="Dois" value="2" >2</button> </div>
+     <div class="col-4">
+   <button type="button" class="btn btn-dark btn-block" value="3" id="Tres">3</button> 
+    </div>
+</div>
+
+
+<div class="row mt-1">
+
+    <div class="col-3 offset-1">
+     <button type="button" class="btn btn-dark btn-block" value="AC" id="Apagar">AC</button> </div>
+     <div class="col-3">
+       <button type="button" class="btn btn-dark btn-block" value="0" id="Zero">0</button> </div>
+     <div class="col-4">
+      <button type="button" class="btn btn-dark btn-block" value="," id="Virgula">,</button> </div>
+    </div>
+</div>
+
+<div class="row mt-1">
+
+    <div class="col-3 offset-1">
+      <button type="button" class="btn btn-dark btn-block" value="√" id="Raiz">√</button> </div>
+     <div class="col-7">
+       <button type="button" class="btn btn-dark btn-block" value="=" id="Igual">=</button> </div>
+</div>
+
+<div class="row mt-3">
+       
+    </div>
+
+</div>
+</body>
+</html>

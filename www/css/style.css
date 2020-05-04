@@ -1,0 +1,33 @@
+/**/
+
+body{
+background-color: rgba(250, 190, 200, 0.466);
+border: 3px solid black;
+}
+
+
+.title{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-weight: bold,initial;
+color: rgba(153, 44, 62, 0.842);
+}
+
+#result{
+  height: 5vh;
+  background-color: rgba(93, 218, 103, 0.644);
+  border: 2px solid black;
+  
+}
+
+#result2{
+  height: 5vh;
+  background-color: rgba(93, 218, 103, 0.644);
+  border: 2px solid black;
+  text-align: right;
+}
+
+#Zero,#Um,#Dois,#Tres,#Quatro,#Cinco,#Seis,#Sete,#Oito,#Nove{
+  background-color: rgb(85, 85, 85);
+  border: 1px solid rgb(73, 73, 73);
+}
+
